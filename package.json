@@ -1,0 +1,20 @@
+{
+  "name": "fcc-erc20-hardhat-app",
+  "version": "1.0.0",
+  "author": "Aindriú Mac Giolla Eoin",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "test": "hardhat test",
+    "test-staging": "hardhat test",
+    "lint": "solhint 'contracts/*.sol'",
+    "lint:fix": "solhint 'contracts/**/*.sol' --fix",
+    "format": "prettier --write .",
+    "coverage": "hardhat coverage"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "hardhat": "^2.12.1"
+  },
+  "dependencies": {}
+}
